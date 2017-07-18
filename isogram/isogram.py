@@ -10,8 +10,8 @@ def is_isogram(word):
         if c not in result:
             result += c
         else:
-            return False
-    return True
+            return False #it is not a isogram
+    return True # it is an isogram
 
 print is_isogram("background")
 print is_isogram("eleven")
